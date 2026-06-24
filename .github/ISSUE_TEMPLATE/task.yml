@@ -1,19 +1,19 @@
-name: Bug Report
-description: Report a bug in the modified-shop system
+name: Task
+description: Create a new task
 
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your bug report.
-        Please describe the bug as best you can.
+        Thank you for your task.
+        Please describe the task as best you can.
 
   - type: dropdown
     id: issue_type
     attributes:
       label: Issue Type
       options:
-        - Bug
+        - Task
     validations:
       required: true
 
@@ -86,15 +86,10 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Error Description
-      description: What isn't working? What happens instead?
+      label: Task Description
+      description: What kind of task would you like to create?
       placeholder: |
-        Briefly describe the problem.
-
-        Optionally, you can also include:
-        - How to reproduce the error
-        - What you expected to happen
-        - Error messages or screenshots
+        Briefly describe your task.
     validations:
       required: true
 
