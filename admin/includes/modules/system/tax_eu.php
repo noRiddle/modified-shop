@@ -190,7 +190,7 @@ class tax_eu
 
     //create a scheduled task
     if ($this->scheduled_task_exists === false) {
-      xtc_db_query("INSERT INTO " . TABLE_SCHEDULED_TASKS . " (time_regularity, time_unit, status, tasks) VALUES ('7', 'd',  '0', 'tax_eu_maintenance')");
+      xtc_db_query("INSERT INTO " . TABLE_SCHEDULED_TASKS . " (time_regularity, time_unit, status, tasks) VALUES ('7', 'd',  '1', 'tax_eu_maintenance')");
     }
   }
 
