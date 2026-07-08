@@ -21,7 +21,7 @@ class tax_eu
   var $enabled;
   var $properties;
   var $_check;
-  var $scheduled_task_exists
+  var $scheduled_task_exists;
 
   var $additional_countries;
 
