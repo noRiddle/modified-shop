@@ -5,12 +5,6 @@
 * use: scheduled task for system module tax_eu
 *
 * © copyright noRiddle, 07-2026
-             ____
-            |    |       |     | |
-  __   ___  |____/ °  ___|  ___| |  ___
-|/  | |   | |   \  | |   | |   | | |___|
-|   n |___o |    R i |___d |__ d l |__e
-
 ***************************************************************/
 
 function cron_tax_eu_maintenance() {
